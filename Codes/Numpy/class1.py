@@ -61,3 +61,15 @@ print(np_empty_array_int.dtype)
 """
 np_seq_array = np.arange(start= 1, stop= 10, step= 2)
 print(np_seq_array)
+
+"""Create a linearly spaced array
+start = 0
+stop = 10
+num = 5 
+
+0  2.5   5   7.5   10
+"""
+np_lin_spaced_array = np.linspace(start= 0, 
+                                  stop= 10, 
+                                  num= 5  )
+print(np_lin_spaced_array)
