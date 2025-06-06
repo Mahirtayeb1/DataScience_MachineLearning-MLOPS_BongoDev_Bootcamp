@@ -56,3 +56,8 @@ print(np_empty_array.dtype)
 np_empty_array_int = np_empty_array.astype('int')
 print(np_empty_array_int)
 print(np_empty_array_int.dtype)
+
+"""Create Sequential array
+"""
+np_seq_array = np.arange(start= 1, stop= 10, step= 2)
+print(np_seq_array)
